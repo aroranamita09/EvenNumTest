@@ -1,7 +1,10 @@
 package com.stackroute;
 
-public class isEven{
+public class EvenNumTest{
 
+public boolean isEven(){
+
+}
 
 }
 
