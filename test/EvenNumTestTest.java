@@ -8,15 +8,15 @@ import static org.junit.Assert.*;
 
 public class EvenNumTestTest {
 
-    EvenNumTest obj;
+    NumberEvenOrNot obj;
     @Before
     public void setUp() throws Exception {
-        EvenNumTest obj = new EvenNumTest();
+       NumberEvenOrNot obj = new NumberEvenOrNot();
     }
 
     @After
     public void tearDown() throws Exception {
-        EvenNumTest obj = null;
+       NumberEvenOrNot obj = null;
     }
 
     @Test
