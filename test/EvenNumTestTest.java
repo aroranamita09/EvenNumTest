@@ -1,22 +1,25 @@
 package com.stackroute;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
+
+
+import org.junit.After;
+        import org.junit.Before;
+        import org.junit.Test;
+
+        import static org.junit.Assert.*;
 
 public class EvenNumTestTest {
 
-    NumberEvenOrNot obj;
+   EvenNumTest obj;
     @Before
     public void setUp() throws Exception {
-       NumberEvenOrNot obj = new NumberEvenOrNot();
+         obj = new EvenNumTest();
     }
 
     @After
     public void tearDown() throws Exception {
-       NumberEvenOrNot obj = null;
+         obj = null;
     }
 
     @Test
